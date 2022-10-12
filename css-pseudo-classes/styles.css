@@ -1,6 +1,7 @@
 button {
   padding: 15px;
   font-size: large;
+  background-color: #f2f3f5;
 }
 
 button:hover {
