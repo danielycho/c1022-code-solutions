@@ -20,17 +20,19 @@
 
 .column-full {
   text-align: center;
+  margin-top: 2rem;
 }
 
 .column-fourths {
   width: 400px;
   height: 200px;
   flex-basis: 25%;
-  padding: 1rem;
+  padding: 0.4rem;
 }
 
 .column-three-fourth {
   flex-basis: 75%;
+  padding: 1rem;
 }
 
 img {
@@ -44,27 +46,28 @@ h3 {
 
 h1 {
   font-size: 2.7rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   letter-spacing: 0.1rem;
 }
 
 p {
   font-size: 0.8rem;
+  line-height: 23px;
 }
 
 .intro {
   letter-spacing: 0;
   width: 550px;
+  margin-bottom: 2rem;
 }
 
 button {
   color: #d14c45;
   background-color: #fff;
-  border: #d14c45;
+  border: #de807b 2px;
   border-style: solid;
-  font-size: 1rem;
-  font-weight: bolder;
+  font-size: 0.9rem;
+  font-weight: bold;
   width: 160px;
   height: 35px;
-  outline-width: thin;
 }
