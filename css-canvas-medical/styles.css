@@ -42,7 +42,7 @@ a {
 }
 
 .border-bottom-style {
-  border-bottom: 1px groove lightgray;
+  border-bottom: 1px solid #c7c7c7;
 }
 
 .center {
@@ -224,6 +224,10 @@ a {
 
 .text-white {
   color: #ffff;
+}
+
+.text-grey {
+  color: #b8b8b8;
 }
 
 .text-section-two-title {
