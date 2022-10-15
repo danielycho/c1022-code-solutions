@@ -16,6 +16,10 @@ a {
   align-items: center;
 }
 
+.back-height {
+  height: 350px;
+}
+
 .background-darkgrey {
   background-color: #525351;
 }
@@ -135,6 +139,11 @@ a {
 
 .line-height-text {
   line-height: 1.3rem;
+}
+
+.link-styling {
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 
 .margin-bottom {
