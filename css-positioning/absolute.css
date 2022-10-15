@@ -15,8 +15,8 @@
 .emoji {
   font-size: 3rem;
   position: absolute;
-  left: 225px;
-  bottom: 225px;
+  right: 1rem;
+  top: 1rem;
 
   /* your code here */
 }
@@ -30,13 +30,18 @@
   -webkit-text-stroke: 1px black;
   text-transform: uppercase;
   position: absolute;
-  top: 165px;
+  bottom: 1rem;
 
   /* your code here */
 }
 
 .overlay {
   background: linear-gradient(transparent, rgb(0 0 0 / 75%));
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 
   /* your code here */
 }
