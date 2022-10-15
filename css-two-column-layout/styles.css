@@ -10,28 +10,36 @@
 
 .row {
   display: flex;
+}
+
+.flex-justify {
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.row-inner {
-  display: flex;
-}
-
 .column-full {
   text-align: center;
+}
+
+.margin-top {
   margin-top: 2rem;
 }
 
 .column-fourths {
+  flex-basis: 25%;
+}
+
+.width-height-pad {
   width: 400px;
   height: 200px;
-  flex-basis: 25%;
   padding: 0.4rem;
 }
 
 .column-three-fourth {
   flex-basis: 75%;
+}
+
+.padrem {
   padding: 1rem;
 }
 
