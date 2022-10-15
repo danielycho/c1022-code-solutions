@@ -42,7 +42,8 @@ a {
 }
 
 .border-bottom-style {
-  border-bottom: 1px solid #c7c7c7;
+  border-bottom: 1px;
+  border-bottom-style: inset;
 }
 
 .center {
@@ -172,7 +173,8 @@ a {
 }
 
 .overlay {
-  background: linear-gradient(transparent, rgb(0 0 0/80%));
+  background: grey;
+  opacity: 0.3;
   position: absolute;
   top: 0;
   left: 0;
@@ -182,7 +184,7 @@ a {
 
 .padding-rowfive {
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 6rem;
   padding-left: 4rem;
 }
 
