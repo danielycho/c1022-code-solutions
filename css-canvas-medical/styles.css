@@ -33,8 +33,25 @@ a {
   border-radius: 0.2rem;
 }
 
+.blue-button-two {
+  padding: 8px;
+  font-size: 0.8rem;
+  background-color: #294464;
+  color: #fdfdfd;
+  border-radius: 0.2rem;
+}
+
+.border-bottom-style {
+  border-bottom: 1px groove lightgray;
+}
+
 .center {
   text-align: center;
+}
+
+.change-over {
+  margin-top: 40px;
+  margin-bottom: 45px;
 }
 
 .container {
@@ -49,6 +66,14 @@ a {
 
 .column-half {
   flex-basis: 50%;
+}
+
+.column-one-third {
+  flex-basis: calc(100% / 3);
+}
+
+.column-two-third {
+  flex-basis: calc(200% / 3);
 }
 
 .column-quarter {
@@ -73,6 +98,12 @@ a {
   font-weight: 400;
 }
 
+.height-adjust-one {
+  align-items: center;
+  padding-left: 6.5rem;
+  padding-top: 1rem;
+}
+
 .height-adjust-six {
   height: 100px;
   align-items: center;
@@ -81,6 +112,8 @@ a {
 .hero {
   height: 400px;
   width: 800px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .inline {
@@ -115,6 +148,38 @@ a {
   margin-right: 70px;
 }
 
+.move-one {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+}
+
+.move-two {
+  position: absolute;
+  bottom: 9rem;
+  left: 4rem;
+}
+
+.move-three {
+  position: absolute;
+  bottom: 5rem;
+  left: 3.5rem;
+}
+
+.move-top {
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
+
+.overlay {
+  background: linear-gradient(transparent, rgb(0 0 0/80%));
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
 .padding-rowfive {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -137,23 +202,44 @@ a {
   padding: 2rem;
 }
 
-.row {
-  display: flex;
+.padding-section-one {
+  padding-left: 6rem;
 }
 
-ul {
-  list-style-type: none;
+.parentsection {
+  position: relative;
+}
+
+.row {
+  display: flex;
 }
 
 .tiempo {
   font-family: "Tiempos Headline", sans-serif;
 }
 
+.title-font {
+  font-size: 0.8rem;
+}
+
 .text-white {
-  color: white;
+  color: #ffff;
+}
+
+.text-section-two-title {
+  font-size: 1.8rem;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .white-logo {
+  height: 20px;
+  width: 100px;
+}
+
+.blue-logo {
   height: 20px;
   width: 100px;
 }
