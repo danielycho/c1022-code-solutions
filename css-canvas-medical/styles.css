@@ -12,6 +12,10 @@ a {
   height: 7rem;
 }
 
+.add-height-two {
+  height: 340px;
+}
+
 .align-items-center {
   align-items: center;
 }
@@ -45,6 +49,16 @@ a {
   border-radius: 0.2rem;
 }
 
+.blue-logo {
+  height: 20px;
+  width: 100px;
+}
+
+.blue-logo-bigger {
+  height: 40px;
+  width: 120px;
+}
+
 .border-bottom-style {
   border-bottom: 1px;
   border-bottom-style: inset;
@@ -56,6 +70,11 @@ a {
 
 .change-over {
   margin-top: 40px;
+  margin-bottom: 45px;
+}
+
+.change-over-two {
+  margin-top: 90px;
   margin-bottom: 45px;
 }
 
@@ -114,6 +133,14 @@ a {
   align-items: center;
 }
 
+.height-add {
+  height: 525px;
+}
+
+.height-add-two {
+  height: 480px;
+}
+
 .hero {
   height: 400px;
   width: 800px;
@@ -142,6 +169,10 @@ a {
   line-height: 1.3rem;
 }
 
+.line-height-text-two {
+  line-height: 1.1rem;
+}
+
 .link-styling {
   font-size: 0.8rem;
   font-weight: bold;
@@ -152,7 +183,8 @@ a {
 }
 
 .margin-bot {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 1rem;
 }
 
 .margin-right {
@@ -177,6 +209,18 @@ a {
   left: 3.5rem;
 }
 
+.move-four {
+  position: absolute;
+  top: 10rem;
+  left: 2rem;
+}
+
+.move-five {
+  position: absolute;
+  bottom: 10rem;
+  left: 2rem;
+}
+
 .move-top {
   padding-top: 5px;
   margin-bottom: 5px;
@@ -190,6 +234,41 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.overlay-two {
+  background: black;
+  opacity: 0.25;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.margin-image {
+  margin-top: 4rem;
+  margin-left: 3rem;
+}
+
+.margin-image-two {
+  margin-top: 5rem;
+  margin-left: 3rem;
+}
+
+.padding-row-two {
+  padding-top: 5rem;
+  padding-left: 8rem;
+}
+
+.padding-row-three {
+  padding-top: 3rem;
+  padding-left: 3rem;
+}
+
+.padding-row-three-three {
+  padding-top: 4.5rem;
+  padding-left: 2rem;
 }
 
 .padding-rowfive {
@@ -218,6 +297,10 @@ a {
   padding-left: 6rem;
 }
 
+.pad-top-two {
+  padding-top: 15px;
+}
+
 .parentsection {
   position: relative;
 }
@@ -225,7 +308,29 @@ a {
 .product-hero {
   height: 400px;
   width: 800px;
+  margin-top: 89px;
+  margin-bottom: 40px;
   object-fit: cover;
+}
+
+.product-image-one {
+  height: 425px;
+  width: 400px;
+}
+
+.product-image-two {
+  height: 350px;
+  width: 400px;
+}
+
+.product-image-three {
+  height: 300px;
+  width: 390px;
+}
+
+.prodpadding-row-five {
+  padding-left: 5rem;
+  padding-top: 2rem;
 }
 
 .row {
@@ -248,8 +353,18 @@ a {
   color: #b8b8b8;
 }
 
+.text-blue {
+  color: #1f78bb;
+}
+
 .text-section-two-title {
   font-size: 1.8rem;
+}
+
+.text-italic-custom {
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: italic;
+  font-weight: lighter;
 }
 
 ul {
@@ -257,11 +372,6 @@ ul {
 }
 
 .white-logo {
-  height: 20px;
-  width: 100px;
-}
-
-.blue-logo {
   height: 20px;
   width: 100px;
 }
