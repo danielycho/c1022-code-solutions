@@ -1,4 +1,4 @@
-* {
+body {
   font-family: Barlow, sans-serif;
 }
 
@@ -23,23 +23,16 @@
 }
 
 .center-elem {
-  padding-left: 2rem;
-}
-
-.pad-icon {
-  padding-left: 5.5rem;
-}
-
-.pad-left {
-  padding-left: 0.5rem;
+  padding-left: 1rem;
 }
 
 .background-light-grey {
   background-color: #f7f8fa;
 }
 
-.h-font-size {
+.h-font-size-weight {
   font-size: 0.45rem;
+  font-weight: 900;
 }
 
 .p-font-size {
@@ -47,8 +40,8 @@
 }
 
 .img-size {
-  height: 70%;
-  width: 70%;
+  height: 80%;
+  width: 80%;
 }
 
 .icon-size {
@@ -57,14 +50,18 @@
 }
 
 .cont-margin {
-  width: 800px;
-  margin-left: 200px;
-  margin-right: 200px;
+  width: 80%;
+  padding-bottom: 30px;
 }
 
-.font-size {
+.font-size-weight {
   font-size: 0.8rem;
-  font-weight: 700;
+  font-weight: 900;
+}
+
+.row-padding {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .justify-content-center {
