@@ -1,84 +1,79 @@
-// var orderHistory = [
-//   {
-//     Items: [
-//       {
-//         type: 'book',
-//         title: 'Javascript for impatient programmers',
-//         author: 'Rauschmayer, Dr. Axel',
-//         image: 'URL',
-//         returnWindow: '09-07-20',
-//         price: 31.55
-//       }
-//     ],
-//     orderNumber: '114-3941689-8772232',
-//     dateOrdered: '08-04-20',
-//     dateDelivered: '08-08-20',
-//     total: 34.00,
-//     shipto: 'JS Masher'
-//   },
-//   {
-//     Items: [
-//       {
-//         type: 'book',
-//         title: 'The Timeless Way of Building',
-//         author: 'Alexander, Christopher',
-//         image: 'URL',
-//         returnWindow:
-//       }
-//     ],
-//     dateOrdered: '7-20-20',
-//     dateDelivered: '7-20-20',
-//     returnWindow: '8-19-20',
-//     price: 41.33,
-//     shipto: 'JS Masher'
-//       }
-//     ]
-//   },
-//   {
-//     orderIndex: [
-//       {
-//         type: {
-//           type: 'adapter',
-//           title: 'Gamecube Controller Adapter.',
-//           author: null
-//         },
-//         dateOrdered: '7-4-20',
-//         dateDelivered: '7-7-20',
-//         returnWindow: '8-5-20',
-//         price: 15.98,
-//         shipto: 'JS Masher'
-//       }
-//     ]
-//   },
-//   {
-//     orderIndex: [
-//       {
-//         type: {
-//           type: 'controller',
-//           title: 'Gamecube Controller',
-//           author: null
-//         },
-//         dateOrdered: '7-3-20',
-//         dateDelivered: '7-5-20',
-//         returnWindow: '8-4-20',
-//         price: 94.95,
-//         shipto: 'JS Masher'
-//       }
-//     ],
-//     orderIndex2:
-//      [
-//        {
-//          type: {
-//            type: 'book',
-//            title: 'The Art of Sql',
-//            author: 'Faroult, Stephane'
-//          },
-//          dateOrdered: '7-3-20',
-//          dateDelivered: '7-5-20',
-//          returnWindow: '8-4-20',
-//          price: 33.99,
-//          shipto: 'JS Masher'
-//        }
-//      ]
-//   }
-// ];
+var orderHistory = [
+  {
+    Items: [
+      {
+        type: 'book',
+        title: 'Javascript for impatient programmers',
+        author: 'Rauschmayer, Dr. Axel',
+        image: 'image.url',
+        returnWindow: '09-07-20',
+        price: 31.55
+      }
+    ],
+    orderNumber: '114-3941689-8772232',
+    dateOrdered: '08-04-20',
+    dateDelivered: '08-08-20',
+    total: 34.00,
+    shipTo: 'JS Masher'
+  },
+  {
+    Items: [
+      {
+        type: 'book',
+        title: 'The Timeless Way of Building',
+        author: 'Alexander, Christopher',
+        image: 'image.url',
+        returnWindow: '08-19-20',
+        price: 41.33
+      }
+    ],
+    orderNumber: '113-9984268-1280257',
+    dateOrdered: '07-20-20',
+    dateDelivered: '07-20-20',
+    returnWindow: '08-19-20',
+    total: 44.53,
+    shipTo: 'JS Masher'
+  },
+  {
+    Items: [
+      {
+        type: 'adapter',
+        title: 'Gamecube Controller Adapter. Super Smash Bros Switch Gamecube Adapter for WII U',
+        author: null,
+        image: 'image.url',
+        returnWindow: '08-05-20',
+        price: 15.98
+      }
+    ],
+    orderNumber: '114-2875557-9059409',
+    dateOrdered: '07-04-20',
+    dateDelivered: '07-07-20',
+    total: 17.22,
+    shipTo: 'JS Masher'
+  },
+  {
+    Items: [
+      {
+        type: 'controller',
+        title: 'Gamecube Controller -Super Smash Bros. Edition (Nintendo Switch)',
+        author: null,
+        image: 'image.url',
+        returnWindow: '08-04-20',
+        price: 94.95
+      },
+      {
+        type: 'book',
+        title: 'The Art of Sql',
+        author: 'Faroult, Stephane',
+        image: 'image.url',
+        returnWindow: '08-04-2020',
+        price: 33.99
+      }
+    ],
+    orderNumber: '113-2883177',
+    dateOrdered: '07-03-20',
+    dateDelivered: '07-05-20',
+    total: 94.95,
+    shipTo: 'JS Masher'
+  }
+];
