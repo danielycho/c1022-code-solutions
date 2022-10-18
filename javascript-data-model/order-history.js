@@ -70,10 +70,10 @@ var orderHistory = [
         price: 33.99
       }
     ],
-    orderNumber: '113-2883177',
+    orderNumber: '113-2883177-2648248',
     dateOrdered: '07-03-20',
     dateDelivered: '07-05-20',
-    total: 94.95,
+    total: 138.93,
     shipTo: 'JS Masher'
   }
 ];
