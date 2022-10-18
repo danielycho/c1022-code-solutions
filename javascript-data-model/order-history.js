@@ -30,7 +30,6 @@ var orderHistory = [
     orderNumber: '113-9984268-1280257',
     dateOrdered: '07-20-20',
     dateDelivered: '07-20-20',
-    returnWindow: '08-19-20',
     total: 44.53,
     shipTo: 'JS Masher'
   },
