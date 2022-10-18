@@ -1,0 +1,42 @@
+.text-color-black {
+  color: #0f0f10;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-quarter {
+  flex-basis: 25%;
+}
+
+.center {
+  text-align: center;
+}
+
+.container-dimensions {
+  height: 600px;
+  width: 800px;
+}
+
+.background-light-grey {
+  background-color: #f7f8fa;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.img-size {
+  height: 30%;
+  width: 35%;
+}
+
+.icon-size {
+  height: 15%;
+  width: 15%;
+}
