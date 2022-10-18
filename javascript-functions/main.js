@@ -31,4 +31,4 @@ function getLastElement(array) {
   return array[array.length - 1];
 }
 
-console.log('output of getLastElement is', getLastElement(['propane', 'and', 'propane', 'accessories']));
+console.log('output of getLastElement is:', getLastElement(['propane', 'and', 'propane', 'accessories']));
