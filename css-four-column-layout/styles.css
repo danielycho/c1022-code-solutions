@@ -1,3 +1,7 @@
+* {
+  font-family: Barlow, sans-serif;
+}
+
 .text-color-black {
   color: #0f0f10;
 }
@@ -18,25 +22,51 @@
   text-align: center;
 }
 
-.container-dimensions {
-  height: 600px;
-  width: 800px;
+.center-elem {
+  padding-left: 2rem;
+}
+
+.pad-icon {
+  padding-left: 5.5rem;
+}
+
+.pad-left {
+  padding-left: 0.5rem;
 }
 
 .background-light-grey {
   background-color: #f7f8fa;
 }
 
-.justify-center {
-  justify-content: center;
+.h-font-size {
+  font-size: 0.45rem;
+}
+
+.p-font-size {
+  font-size: 0.3rem;
 }
 
 .img-size {
-  height: 30%;
-  width: 35%;
+  height: 70%;
+  width: 70%;
 }
 
 .icon-size {
   height: 15%;
   width: 15%;
+}
+
+.cont-margin {
+  width: 800px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.font-size {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.justify-content-center {
+  justify-content: center;
 }
