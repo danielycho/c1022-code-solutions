@@ -1,0 +1,60 @@
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.row {
+  display: flex;
+}
+
+.add-padding {
+  /* padding-left: 10%;
+  padding-right: 10%;
+  margin-left: 10%;
+  margin-right: 10%; */
+}
+
+.background-orange {
+  background-color: #fef1e6;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-one-fifth {
+  flex-basis: 20%;
+}
+
+.container {
+  width: 80%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.image-styling {
+  height: 60%;
+  width: 60%;
+}
+
+.text-grey {
+  color: #d3d3d3;
+}
+
+.font-styling {
+  font-size: 0.5rem;
+  font-weight: 600;
+}
+
+.head-styling {
+  font-size: 1.2rem;
+}
+
+.justify-content {
+  justify-content: center;
+}
