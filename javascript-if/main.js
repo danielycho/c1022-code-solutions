@@ -27,14 +27,14 @@ function startsWithJ(string) {
   }
 }
 
-// var bart = {
-//   name: "Bart",
-//   age: 10
-// }
-// function isOldEnoughToDrink(person) {
-//   if person[age] =< 21 {
-//     return true;
-//   } else {
-//       return false;
-//     }
-// }
+function isOldEnoughToDrink(person) {
+  return person.age > 21;
+}
+
+function isOldEnoughToDrive(person) {
+  return person.age > 16;
+}
+
+function isOldEnoughToDrinkAndDrive(person) {
+  return false;
+}
