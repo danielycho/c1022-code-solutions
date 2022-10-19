@@ -6,11 +6,12 @@ body {
   display: flex;
 }
 
-.add-padding {
-  /* padding-left: 10%;
-  padding-right: 10%;
-  margin-left: 10%;
-  margin-right: 10%; */
+.align-content {
+  align-content: center;
+}
+
+.display-flex {
+  display: flex;
 }
 
 .background-orange {
@@ -27,6 +28,7 @@ body {
 
 .container {
   width: 80%;
+  margin: 0 10%;
 }
 
 .text-center {
@@ -38,8 +40,14 @@ body {
 }
 
 .image-styling {
-  height: 60%;
-  width: 60%;
+  width: 100%;
+}
+
+.extra-styling {
+  object-fit: contain;
+  height: 100%;
+  width: 90%;
+  padding-top: 1rem;
 }
 
 .text-grey {
@@ -57,4 +65,8 @@ body {
 
 .justify-content {
   justify-content: center;
+}
+
+.justify-right {
+  justify-content: right;
 }
