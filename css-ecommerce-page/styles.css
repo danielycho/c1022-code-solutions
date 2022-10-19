@@ -45,7 +45,7 @@ body {
 
 .extra-styling {
   object-fit: cover;
-  height: 307px;
+  height: 285px;
 }
 
 .text-grey {
@@ -60,6 +60,7 @@ body {
 
 .head-styling {
   font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .justify-content {
@@ -68,4 +69,9 @@ body {
 
 .justify-right {
   justify-content: right;
+}
+
+.margin-adjust {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
