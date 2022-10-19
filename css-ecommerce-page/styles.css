@@ -44,10 +44,8 @@ body {
 }
 
 .extra-styling {
-  object-fit: contain;
-  height: 100%;
-  width: 90%;
-  padding-top: 1rem;
+  object-fit: cover;
+  height: 307px;
 }
 
 .text-grey {
