@@ -55,9 +55,30 @@ logEachCharacter('testing');
 
 function doubleAll(numbers) {
   var doubled = [];
-  for (var i = 0; i < doubled.length; i++) {
-    numbers = numbers * 2;
-    doubled.push(numbers);
+  for (var i = 0; i < numbers.length; i++) {
+    doubled.push(numbers[i] * 2);
   }
   return doubled;
 }
+
+console.log(doubleAll([2, 4, 6, 10, 20]));
+
+function getKeys(object) {
+  var keys = [];
+  for (var key in object) {
+    keys.push(key);
+  }
+  return keys;
+}
+
+console.log(getKeys({ a: 1, b: 2, c: 3 }));
+
+function getValues(object) {
+  var values = [];
+  for (var key in object) {
+    values.push(object[key]);
+  }
+  return values;
+}
+
+console.log(getValues({ a: 1, b: 2, c: 3 }));
