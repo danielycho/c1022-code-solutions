@@ -5,8 +5,8 @@
 // else return false
 
 function isVowel(char) {
-  char.toUpperCase();
-  if (char[0].toUpperCase() === 'A' || char[0].toUpperCase() === 'E' || char[0].toUpperCase() === 'I' || char[0].toUpperCase() === 'O' || char[0].toUpperCase() === 'U') {
+  char = char.toUpperCase();
+  if (char === 'A' || char === 'E' || char === 'I' || char === 'O' || char === 'U') {
     return true;
   } else {
     return false;
