@@ -1,6 +1,6 @@
 /* exported isUpperCased */
 
-// Write Boolean comparing if a string has all uppercase or not.
+// Write conditional comparing if a string has all uppercase or not.
 // return boolean.
 
 function isUpperCased(word) {
