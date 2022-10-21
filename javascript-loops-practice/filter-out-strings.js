@@ -2,10 +2,8 @@
 function filterOutStrings(values) {
   var array = [];
   for (var i = 0; i < values.length; i++) {
-    if (typeof values[i] === 'number') {
+    if (typeof values[i] === 'number' || typeof values[i] === 'boolean' || typeof values[i] === 'object') {
       array.push(values[i]);
-    } else {
-      values.splice(i, 0);
     }
   } return array;
 }
