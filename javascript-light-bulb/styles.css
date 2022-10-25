@@ -1,0 +1,50 @@
+.row {
+  display: flex;
+}
+
+.justify-content {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 0;
+}
+
+.circle.on {
+  background: #faea84;
+  filter: drop-shadow(0 -0.5mm 2mm #e5c029);
+}
+
+.circle.off {
+  background: #252525;
+  filter: drop-shadow(0 -8mm 4mm #0c0c0c);
+  box-shadow: 0 -15px 0 black;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+}
+
+.cont-color-on {
+  background-color: #fef9f1;
+  transition-delay: 0.05s;
+}
+
+.cont-color-off {
+  background-color: #111;
+  transition-delay: 0.05s;
+}
+
+.position {
+  height: 100vh;
+  width: 100vh;
+}
