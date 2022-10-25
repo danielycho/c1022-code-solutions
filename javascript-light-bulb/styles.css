@@ -25,7 +25,7 @@
 .circle.off {
   background: #252525;
   filter: drop-shadow(0 -8mm 4mm #0c0c0c);
-  box-shadow: 0 -15px 0 black;
+  box-shadow: 0 -15px 0 black, 2px 0 black, -2px 0 black;
 }
 
 .container {
