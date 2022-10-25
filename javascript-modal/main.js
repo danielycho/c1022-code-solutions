@@ -10,16 +10,16 @@ var whiteBox = document.querySelector('.white-box');
 var openModal = document.querySelector('.modal-style');
 var noButton = document.querySelector('.no-style');
 
-function overLayAndNoAppear(event) {
+function showModal(event) {
   overlay.className = 'overlay visibility-on';
   whiteBox.className = 'white-box visibility-on';
 }
 
-openModal.addEventListener('click', overLayAndNoAppear);
+openModal.addEventListener('click', showModal);
 
-function clickNoForNoOverlay(event) {
+function hideModal(event) {
   overlay.className = 'overlay visibility-off';
   whiteBox.className = 'white-box visibility-off';
 }
 
-noButton.addEventListener('click', clickNoForNoOverlay);
+noButton.addEventListener('click', hideModal);
