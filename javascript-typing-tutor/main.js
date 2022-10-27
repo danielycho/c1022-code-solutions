@@ -4,8 +4,8 @@
 // use .textContent to compare.
 // if they are equal need to increment index by 1 to move to next letter.
 // also change color to color-right
-// also keep underline
-// if wrong then it should show red.
+// also keep underlined
+// if wrong then it should show color-wrong.
 // should also stay underlined.
 
 var letter = document.querySelectorAll('span');
