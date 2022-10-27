@@ -1,0 +1,41 @@
+* {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+}
+
+.height {
+  padding-top: 25rem;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.align-items {
+  text-align: center;
+}
+
+body {
+  font-size: 4rem;
+}
+
+.color-right {
+  color: yellow;
+}
+
+.color-wrong {
+  color: red;
+}
+
+.text-decoration {
+  text-decoration: underline;
+}
