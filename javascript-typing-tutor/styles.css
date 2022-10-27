@@ -8,10 +8,6 @@
   margin: auto;
 }
 
-.height {
-  padding-top: 25rem;
-}
-
 .row {
   display: flex;
 }
@@ -38,4 +34,13 @@ body {
 
 .text-decoration {
   text-decoration: underline;
+}
+
+.center {
+  text-align: center;
+}
+
+img {
+  height: 500px;
+  width: 800px;
 }
