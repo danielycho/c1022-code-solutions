@@ -22,5 +22,8 @@ function handleSubmit(event) {
   messageData.name = contactForm.elements.name.value;
   messageData.email = contactForm.elements.email.value;
   messageData.message = contactForm.elements.message.value;
-
+  console.log(messageData);
+  contactForm.reset();
 }
+
+// alternative way to do this.
