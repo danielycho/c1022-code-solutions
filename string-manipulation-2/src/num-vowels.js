@@ -8,21 +8,17 @@
 
 function numVowels(string) {
   var counter = 0;
-  var string2 = string.toUpperCase();
-  for (var i = 0; i < string2.length; i++) {
-    if (string2[i] === 'A') {
+  var newString = string.toUpperCase();
+  for (var i = 0; i < newString.length; i++) {
+    if (newString[i] === 'A') {
       counter = counter + 1;
-    }
-    if (string2[i] === 'E') {
+    } else if (newString[i] === 'E') {
       counter = counter + 1;
-    }
-    if (string2[i] === 'I') {
+    } else if (newString[i] === 'I') {
       counter = counter + 1;
-    }
-    if (string2[i] === 'O') {
+    } else if (newString[i] === 'O') {
       counter = counter + 1;
-    }
-    if (string2[i] === 'U') {
+    } else if (newString[i] === 'U') {
       counter = counter + 1;
     }
   }
